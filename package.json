@@ -1,0 +1,25 @@
+{
+  "name": "tech-portfolio",
+  "version": "1.0.0",
+  "description": "University of Michigan Web Design Final Project (Bootstrap and Font-Awesome CDNs)",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixiephreak/tech-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixiephreak/tech-portfolio/issues"
+  },
+  "homepage": "https://github.com/pixiephreak/tech-portfolio#readme"
+}
