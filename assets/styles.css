@@ -1,8 +1,7 @@
 body {
-  background-color: #f9f6f8;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #2a9a57;
+  background-color:  	#e0ebeb;
 }
 
 .text-muted {
@@ -25,6 +24,14 @@ body {
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: #f83020;
 }
 
 #logo {
@@ -112,9 +119,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: #f83020;
 }
+
+#about img {
+  width: 10%;
+}
+
+
+.project i {
+  color: #fff;
+  font-size: 12em;
+}
+
 @media screen and (min-width:768px) {
   #myNavbar {
     background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px #92b9b9;
   }
 
   #myNavbar .nav {
@@ -201,23 +220,30 @@ header .introText .introHeading {
   margin: 0 auto;
 }
 #collection .container {
-  background: #ebf9f9;
+  background-color:  #eff5f5;
+  border-radius: 5px;
   padding: 5%;
   margin-top: 5%;
+  box-shadow: 10px 10px 5px  #92b9b9;
 }
 #collection .portfolio-item {
-  margin: 0 0 15px;
+  margin: 5px 5px 10px;
   right: 0;
+  border-radius: 5px;
+  background-color: #f83020;
+  padding: 0;
+  text-align: center;
 }
 .modal-body a {
   color: #00ff00;
 }
-.modal-body img {
+/*.modal-body img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 2.5%;
-}
+  /*padding: 2.5%;*/
+}*/
+
 #collection .portfolio-item .portfolio-link {
   display: block;
   position: relative;
@@ -260,6 +286,10 @@ header .introText .introHeading {
   background-color: white;
   text-align: center;
   padding: 4%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
 }
 #collection .portfolio-item .portfolio-caption:last-child {
   max-width: 600px;
