@@ -70,11 +70,12 @@ p {
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
   color: #f83020;
+  text-decoration: none;
 }
 
 section {
@@ -130,6 +131,44 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12em;
 }
 
+#collection .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  border-radius: 5px;
+  /*background-color: #f83020;*/
+  text-align: center;
+}
+
+.portfolio-link h3{
+  color: #fff;
+  font-size: 1.75em;
+  padding-top: 2em;
+  padding-bottom: .25em;
+}
+
+.background {
+  background-color: #004466;
+  height: 175px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+}
+
+#collection .portfolio-item .portfolio-caption {
+  color: #000;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 4%;
+  margin-bottom: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+}
+
 @media screen and (min-width:768px) {
   #myNavbar {
     background-color: #fcfcfc;
@@ -145,76 +184,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fcfcfc;
   }
 }
-#header {
-  background-image: url('imgs/green_my_screen_cover.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  width: 100%;
-  padding-top: 450px;
-  color: white;
-}
-#headerContent {
-  margin: 0 auto;
-  width: 900px;
-}
-header .introText {}
-header .introText .introLeadin {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 1.75em;
-}
-header .introText .introHeading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 4em;
-}
+
 @media (max-width: 768px) {
 
   #myNavbar {
     background-color: #fcfcfc;
   }
 
-  #header {
-    background-image: url('imgs/green_my_screen_cover.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    color: white;
-    padding-top: 400px;
-  }
-
-  #headerContent {
-    margin: 0 auto;
-    width: 900px;
-  }
-
-  header .introText {}
-
-  header .introText .introLeadin {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 1.25em;
-    margin-bottom: 1%;
-  }
-
-  header .introText .introHeading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 6500;
-    font-size: 2em;
-    margin-bottom: 5%;
-  }
 }
 #collection {
   margin: 0 auto;
@@ -226,14 +202,7 @@ header .introText .introHeading {
   margin-top: 5%;
   box-shadow: 10px 10px 5px  #92b9b9;
 }
-#collection .portfolio-item {
-  margin: 5px 5px 10px;
-  right: 0;
-  border-radius: 5px;
-  background-color: #f83020;
-  padding: 0;
-  text-align: center;
-}
+
 .modal-body a {
   color: #00ff00;
 }
@@ -253,7 +222,7 @@ header .introText .introHeading {
 #collection .portfolio-item .portfolio-link .portfolio-hover {
   background: 	#006699;
   position: absolute;
-  width: 100%;
+  width: 92%;
   height: 100%;
   opacity: 0;
   transition: all ease 0.5s;
@@ -279,18 +248,7 @@ header .introText .introHeading {
 #collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
-#collection .portfolio-item .portfolio-caption {
-  color: #000;
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-  padding: 4%;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-}
+
 #collection .portfolio-item .portfolio-caption:last-child {
   max-width: 600px;
   margin: 0 auto;
@@ -359,6 +317,7 @@ header .introText .introHeading {
 #about {
   padding-bottom: 20%;
 }
+
 @media (max-width: 768px) {
 
 #collection {
