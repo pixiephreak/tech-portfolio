@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-  color: #d1cac2;
+  color: #bdb3a8;
 }
 
 .navbar-inverse {
@@ -137,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   /*background-color: #f83020;*/
   text-align: center;
+  /*box-shadow: 1px 1px 5px #92b9b9;*/
 }
 
 .portfolio-link h3{
@@ -149,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 .background {
   background-color: #004466;
   height: 175px;
+  opacity: .85;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -225,6 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 92%;
   height: 100%;
   opacity: 0;
+  border-radius: 5px;
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
