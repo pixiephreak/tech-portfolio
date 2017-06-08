@@ -10,7 +10,7 @@ body {
 
 .navbar-inverse {
   background-image: none;
-  background-color: #fcfcfc
+  background-color: #fcfcfc;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -208,12 +208,10 @@ h1, h2, h3, h4, h5, h6 {
 .modal-body a {
   color: #337ab7;
 }
-/*.modal-body img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /*padding: 2.5%;*/
-}*/
+
+.modal-body a:hover {
+  color: #f83020;
+}
 
 #collection .portfolio-item .portfolio-link {
   display: block;
