@@ -231,11 +231,11 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: all ease 0.5s;
 }
 #collection .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: .5;
+  opacity: 0;
 }
 #collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
-  width: 100%;
+  width: 120%;
   height: 20px;
   font-size: 20px;
   text-align: center;
