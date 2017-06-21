@@ -147,6 +147,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: .25em;
 }
 
+.portfolio-link h3:hover {
+  color: #fb8b83;
+}
+
 .background {
   background-color: #004466;
   height: 175px;
@@ -155,6 +159,15 @@ h1, h2, h3, h4, h5, h6 {
   border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
   -webkit-border-top-right-radius: 5px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.background:hover {
+  opacity: 0.65;
 }
 
 #collection .portfolio-item .portfolio-caption {
@@ -211,43 +224,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .modal-body a:hover {
   color: #f83020;
-}
-
-#collection .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-}
-#collection .portfolio-item .portfolio-link .portfolio-hover {
-  background: 	#006699;
-  position: absolute;
-  width: 92%;
-  height: 100%;
-  opacity: 0;
-  border-radius: 5px;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#collection .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 0;
-}
-#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  position: absolute;
-  width: 120%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -20px;
-  color: white;
-}
-#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -20px;
-}
-#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
 }
 
 #collection .portfolio-item .portfolio-caption:last-child {
@@ -315,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 4%;
 }
 #about {
-  padding-bottom: 20%;
+  padding-bottom: 5%;
 }
 
 @media (max-width: 768px) {
@@ -330,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 #about {
-    padding-bottom: 40%;
+    padding-bottom: 10%;
   }
 }
 .carousel-control.left {
@@ -338,4 +314,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .carousel-control.right {
   background-image: none;
+}
+
+.fa-3x {
+  padding: 1em;
+  color: #006699;
+}
+
+.fa-3x:hover {
+  color: #f83020;
 }
