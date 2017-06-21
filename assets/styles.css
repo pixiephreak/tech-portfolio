@@ -91,12 +91,8 @@ section h2.section-heading {
 
 h3.section-subheading {
   font-size: 2em;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
-  font-weight: 400;
   margin-bottom: 5%;
-  color: black;
 }
 
 .btn {
@@ -126,6 +122,12 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 1px 1px 10px #92b9b9;
 }
 
+.img-circle {
+  padding: .25em;
+  box-shadow: 1px 1px 10px #92b9b9;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
 .project i {
   color: #fff;
