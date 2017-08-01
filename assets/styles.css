@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 #collection .portfolio-item .portfolio-link .portfolio-hover:hover{
     opacity:.75;
@@ -353,6 +353,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content img {
+  border-radius: 5px 5px 0 0;
+}
+
 #collection .portfolio-item .portfolio-caption {
   color: #000;
   max-width: 600px;
@@ -360,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
   text-align: center;
   padding: 4%;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 5px 5px;
 }
 
 
