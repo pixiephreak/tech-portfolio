@@ -154,37 +154,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fb8b83;
 }
 
-.background {
-  background-color: #004466;
-  height: 175px;
-  opacity: .85;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -ms-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
 .background:hover {
   opacity: 0.65;
-}
-
-#collection .portfolio-item .portfolio-caption {
-  color: #000;
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  text-align: center;
-  padding: 4%;
-  margin-bottom: 0;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
 }
 
 @media screen and (min-width:768px) {
@@ -221,12 +192,21 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 10px 10px 5px  #92b9b9;
 }
 
-.modal-body a {
-  color: #337ab7;
-}
-
 .modal-body a:hover {
   color: #f83020;
+}
+
+.modal-body a{
+  color: #337ab7;;
+}
+
+.modal-body img{
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5%;
+
 }
 
 #collection .portfolio-item .portfolio-caption:last-child {
@@ -254,6 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 .portfolio-modal .item {
   padding-bottom: 5%;
 }
@@ -326,4 +307,71 @@ h1, h2, h3, h4, h5, h6 {
 
 .fa-3x:hover {
   color: #f83020;
+}
+
+#collection .portfolio-item .portfolio-link{
+    display: block;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+
+
+
+#collection .portfolio-item .portfolio-link .portfolio-hover{
+    background: #255f7c;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+#collection .portfolio-item .portfolio-link .portfolio-hover:hover{
+    opacity:.75;
+}
+
+#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -20px;
+  color: white;
+}
+
+#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -20px;
+}
+
+#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#collection .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#collection .portfolio-item .portfolio-caption {
+  color: #000;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 4%;
+}
+
+
+
+#collection .portfolio-item .portfolio-caption:last-child {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+
+}
+
+#collection * {
+  z-index: 2;
 }
